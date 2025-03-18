@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
-    color: #fff;
-}
+
 ul{
     list-style: none;
     padding-left: 0;
@@ -17,84 +15,72 @@ a{
     text-decoration: none;
 }
 .container{
-    max-width: 1660px;
+    max-width: 1724px;
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
     margin: auto;
 }
-.text-dark{
-    color: #000 !important;
+
+
+
+.object-cover{
+    object-fit: cover;
 }
-.text-gray{
-    color: #acacac !important; 
-}
-.bg-dark{
-    background-color: #000 !important;
-}
-.bg-gray{
-    background-color: #202020 !important;
+.rounded-3{
+    border-radius: 35px !important;
 }
 
-.ffb{
-    font-family: "Bebas Neue", sans-serif;
-}
 .ffp{
     font-family: "Poppins", sans-serif;
 }
-.ffg{
-    font-family: "Gothic A1", sans-serif;
+.ffq{
+    font-family: "Quattrocento", serif;
 }
-.fs-14{
-    font-size: 14px;
+.ffm{
+    font-family: "Montserrat", sans-serif;
 }
-.fs-15{
-    font-size: 15px;
+
+.text-dark{
+    color: #000 !important;
 }
+.bg-danger{
+    background-color: #D94343 !important;
+}
+
+
 .fs-16{
     font-size: 16px;
-}
-.fs-18{
-    font-size: 18px;
 }
 .fs-20{
     font-size: 20px;
 }
+.fs-22{
+    font-size: 22px;
+}
+.fs-23{
+    font-size: 23px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-26{
+    font-size: 26px;
+}
 .fs-30{
     font-size: 30px;
 }
-.fs-40{
-    font-size: 40px;
+.fs-32{
+    font-size: 32px;
 }
-.ls-50{
-    letter-spacing: 0.05em;
+.fs-34{
+    font-size: 34px;
 }
-.ls-100{
-    letter-spacing: 0.1em;
-}
-.ls-200{
-    letter-spacing: 0.2em;
-}
-.lh-0{
-    line-height: normal;
-}
-.lh-0-6{
-    line-height: 0.6;
-}
-.lh-0-8{
-    line-height: 0.8;
-}
-.lh-0-9{
-    line-height: 0.9;
-}
-.lh-1{
-    line-height: 1;
-}
-.lh-2{
-    line-height: 2;
-}
-.lh-2-2{
-    line-height: 2.2;
+.fs-50{
+    font-size: 50px;
 }
 
 .fw-500{
@@ -103,276 +89,115 @@ a{
 .fw-600{
     font-weight: 600;
 }
+.fw-700{
+    font-weight: 700;
+}
+
+.lh-0-6{
+    line-height: 0.6;
+}
+.lh-1{
+    line-height: 1;
+}
+.lh-1-06{
+    line-height: 1.06;
+}
+.lh-1-2{
+    line-height: 1.2;
+}
+.lh-1-3{
+    line-height: 1.3;
+}
+.lh-1-4{
+    line-height: 1.4;
+}
+.lh-1-6{
+    line-height: 1.6;
+}
+.lh-1-8{
+    line-height: 1.8;
+}
+
+.ls-002{
+    letter-spacing: -0.02em;
+}
+.ls-200{
+    letter-spacing: -0.02em;
+}
+
+
 
 h1, .h1{
     font-size: 100px;
 }
 
-.object-cover{
-    object-fit: cover;
+header{
+    z-index: 1;
 }
-/* hero section css start */
-.hero-section{
+/* banner section css start */
+.banner-section{
     background-image: url(../images/hero-banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
 }
-.hero-section::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(0 0 0 / 70%);
+.bnr-logo-1{
+    max-width: 168px !important;
 }
-.nav-left {
-    max-width: 650px;
-}
-.banner-img{
-    height: 690px;
-}
-
-.banner-img-1 img{
-    object-fit: cover;
-}
-
-.banner-text{
-    z-index: 2;
-} 
-/* hero section css end */
-/* welcome section css start */
-.welcome-lft-img {
-    height: 395px;
-    overflow: hidden;
+.bnr-logo-2{
+    max-width: 200px !important;
 }
 
 
-/* welcome section css end */
+/* banner section css end */
 
-/* featured section css start */
-.featured-bx img {
-    width: 80px !important;
-}
-/* featured section css End */
 
-/* testimonial section css start */
-.testimonail-text::after, .testimonail-text::before{
-    content: '';
-    position: absolute;
-    top: 25px;
-    width: 40px;
-    height: 35px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+/* core value secton css start */
+.core-wrap {
+    box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.15);
 }
-.testimonail-text::after{
-    left: 0;
-    background-image: url(../images/testimonial-left.svg);
+.core-img{
+    height: 120px;
+    width: 120px;
+}
 
-}
-.testimonail-text::before{
-    right: 0;
-    background-image: url(../images/testimonial-right.svg);
+/* core value secton css end */
 
+
+/* latest event section start */
+
+.event-img{
+    height: 285px;
+    width: 285px;
 }
-/* testimonial section css end  */
-/* get in touch section css start */
+.latest-bx{
+    width: 24%;
+}
+.latest-sec .slick-slide {
+    padding: 0 10px;
+}
+.latest-bx p {
+    min-height: 225px;
+}
+
+
+/* latest event section css end */
+/* footer section css start */
+footer.bg-danger{
+    background-color: #A62626 !important;
+}
+.form-group input:focus-visible, .form-group textarea:focus-visible {
+    outline: 0;
+}
 .form-group input{
-    height: 60px;
+    height: 45px;
 }
 .form-group textarea{
-    height: 170px;
+    height: 100px;
 }
-.read-btn.border-white{
-    border-color: #B58D00 !important;
-}
-.read-btn:hover{
-    background-color:#B58D00 !important ;
-}
-.cst-btn:hover{
-    background-color: #fff !important;
-    color: #000 !important;
+.form-group input::placeholder, .form-group textarea::placeholder{
+    color: #fff;
 }
 
-/* get in touch section end */
 
-/* media css start */
-@media(max-width:1400px){
-    .nav-left {
-        max-width: 450px;
-    }
-    .fs-20 {
-        font-size: 18px;
-    }
-    .banner-img {
-        height: 480px;
-    }
-    h1, .h1 {
-        font-size: 80px;
-    }
-    .fs-18 {
-        font-size: 16px;
-    }
-    .welcome-lft-img {
-        height: 300px;
-    }
-    .fs-40 {
-        font-size: 30px;
-    }
-    .fs-14 {
-        font-size: 12px;
-    }
-    .fs-30 {
-        font-size: 28px;
-    }
-}
-
-@media(max-width:1200px){
-    .nav-left {
-        max-width: 350px;
-    }
-    h1, .h1 {
-        font-size: 68px;
-    }
-    .form-group input {
-        height: 50px;
-    }
-    .fs-16 {
-        font-size: 14px;
-    }
-    .fs-40 {
-        font-size: 28px;
-    }
-    .fs-30 {
-        font-size: 25px;
-    }
-    .fs-15 {
-        font-size: 14px;
-    }
-}
-@media(max-width:991px){
-    .nav-right {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 300px;
-        background-color: #202020;
-        padding: 50px;
-        z-index: 9;
-        transition: all 0.3s linear;
-        transform: translateX(-100%);
-    }
-    .menuToggle .nav-right{
-        transform: translateX(0%);
-    }
-    .toggle {
-        filter: brightness(1) invert(1);
-        width: 30px;
-    }
-    .close {
-        width: 15px;
-        position: absolute;
-        top: 20px;
-        right: 25px;
-        filter: brightness(1) invert(1);
-    }
-    h1, .h1 {
-        font-size: 55px;
-    }
-    .banner-img {
-        height: 380px;
-    }
-    .fs-18 {
-        font-size: 15px;
-    }
-    .welcome-lft-img {
-        height: 250px;
-    }
-    .featured-bx img {
-        width: 65px !important;
-    }
-    .fs-20 {
-        font-size: 16px;
-    }
-    .fs-30 {
-        font-size: 20px;
-    }
-    .fs-15 {
-        font-size: 11px;
-    }
-}
-
-@media(max-width:767px){
-    h1, .h1 {
-        font-size: 45px;
-    }
-    .welcome-lft-img {
-        height: 300px;
-    }
-    .wel-img {
-        height: 350px;
-    }
-    .container{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .bnr-rght::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgb(0 0 0 / 70%);
-        z-index: 1;
-    }
-    .nav-left {
-        max-width: 250px;
-    }
-    .footer-wrap p {
-        line-height: 1.3 !important;
-    }
-}
-@media(max-width:575px){
-    h1, .h1 {
-        font-size: 38px;
-    }
-    .banner-img {
-        height: 300px;
-    }
-    .welcome-lft-img {
-        height: 200px;
-    }
-    .wel-img {
-        height: 250px;
-    }
-    .fs-18 {
-        font-size: 14px;
-    }
-    .fs-40 {
-        font-size: 22px;
-    }
-    .testimonail-text::after, .testimonail-text::before {
-        width: 22px;
-        height: 25px;
-    }
-    .form-group textarea {
-        height: 140px;
-    }
-    .form-group input {
-        height: 45px;
-    }
-    .fs-30 {
-        font-size: 18px;
-    }
-    .nav-left {
-        max-width: 180px;
-    }
-}
-
-/* media css end */
+/* footer section end */
