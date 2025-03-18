@@ -47,7 +47,9 @@ a{
 .bg-danger{
     background-color: #D94343 !important;
 }
-
+.text-danger{
+    color: #D94343 !important;
+}
 
 .fs-16{
     font-size: 16px;
@@ -151,7 +153,12 @@ header{
 
 /* banner section css end */
 
-
+.welcome-wrap{
+    height: 90%;
+}
+.know-more.bottom-0{
+    bottom: 60px !important;
+}
 /* core value secton css start */
 .core-wrap {
     box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.15);
